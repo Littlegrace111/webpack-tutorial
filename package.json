@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,8 @@
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.9"
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
     "lodash": "^4.17.5"
